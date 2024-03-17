@@ -1,2 +1,12 @@
-# Weather-Forecaster
-Weather Forecaster is a user-friendly web application designed to provide accurate weather forecasts for major European cities . With a sleek and intuitive interface, users can easily select their desired city from a list and view detailed weather predictions for the seven upcoming days. 
+# weather-web-app
+simple web application to check the current weather state
+
+## API KEY
+
+To make sure the web app works properly you should use your own API KEY in the script.js file. <br>
+This web app is using the `openweathermap` API.
+
+`js/script`
+
+`apiKey="YOUR_API_KEY_HERE"`
+

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<!-- Coding By Mohammad Noori -->
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="stylesheet" href="css/style.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Linking BoxIcon for Icon -->
+  <link href="https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css" rel="stylesheet" />
+
+  <!-- favicon -->
+  <link rel="icon" href="icons/favicon.svg" />
+  <title>Weather Web App</title>
+</head>
+
+<body>
+  <!DOCTYPE html>
+
+  
+
+  <!-- dark mode toggle -->
+  <div class="dark-mode">
+    <span class="dark-mode-btn">
+      <i class="bx bx-moon"></i>
+    </span>
+  </div>
+
+
+  <!-- main content -->
+  <div class="wrapper">
+    <header><i class="bx bx-left-arrow-alt"></i>Weather Forcasting App</header>
+    <h1>Please select a city</h1>
+    <section class="input-part">
+      <p class="info-txt"></p>
+      <div class="content">
+
+        <select class="bx bx-left-arrow-alt" id="citySelect">
+          <option value="">Select a city</option>
+          <!-- Add options dynamically using JavaScript -->
+          <div class="separator"></div>
+          <button>Location auto-detect</button>
+        </select>
+      </div>
+    </section>
+    <section class="weather-part">
+      <div id="weatherInfo" class="weather-info"></div>
+    </section>
+  </div>
+
+
+  <!--=========== SCRIPTS ===========-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="js/script.js"></script>
+
+
+
+</body>
+
+</html>
