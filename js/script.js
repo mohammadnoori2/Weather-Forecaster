@@ -1,7 +1,7 @@
  $(document).ready(function () {
     $.ajax({
         type: "GET",
-        url: 'js/cities.csv', // Update the URL to point to the cities.csv file in the same folder
+        url: 'js/cities.csv', 
         dataType: "text",
         success: function (data) {
             console.log("Data received:", data);
@@ -64,7 +64,7 @@ function processData1(city, csvData) {
             // Fetch weather data using lon and lat
             $.ajax({
                 type: "GET",
-                url: "http://www.7timer.info/bin/api.pl",
+                url: "https://www.7timer.info/bin/api.pl?lon=6.96&lat=50.937&product=civillight&output=json",
                 data: {
                     lon: lon,
                     lat: lat,
